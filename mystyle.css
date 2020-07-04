@@ -1,0 +1,203 @@
+body {
+    background-color: #252227;
+    padding: 20px 0 28px 0;
+    margin: 0;
+}
+
+#title {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 72px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    transition: 0.5s ease;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.myButton {
+    color: rgb(208, 255, 0);
+    font-size: 22px;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 11px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    background-image: linear-gradient( to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.myButton:hover {
+    background: #1c6ea4;
+}
+
+.myButton:active {
+    background: #144e75;
+}
+
+#add_button {
+    position: absolute;
+    transition: 0.5s ease;
+    top: 35px;
+    left: 500px;
+    /* right: -10px; */
+    /* bottom: -196px; */
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 11px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(22, 36, 46) 50%, rgb(165, 165, 165) 100%); */
+    /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#delete_button {
+    position: absolute;
+    transition: 0.5s ease;
+    top: 35px;
+    left: 650px;
+    /* right: -10px; */
+    /* bottom: -196px; */
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 11px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(22, 36, 46) 50%, rgb(165, 165, 165) 100%); */
+    /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#CatNames {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #fbff00;
+    font-weight: 550;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+    position: absolute;
+    transition: 0.5s ease;
+    top: 350px;
+    left: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    transition: 0.5s ease;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    transition: 0.5s ease;
+}
+
+.area {
+    text-align: center;
+    font-size: 6.5em;
+    color: rgb(238, 255, 0);
+    letter-spacing: -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur 0.75s ease-out infinite;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 7px rgb(0, 0, 0);
+    font-family: Tahoma, Geneva, sans-serif;
+    word-spacing: 2px;
+    font-weight: 1000;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    transition: 0.1s ease;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px rgb(238, 255, 0), 0px 0px 10px rgb(251, 255, 1), 0px 0px 25px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0), 0px 0px 25px rgb(0, 0, 0);
+    }
+}
+
+.pictures {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin: 0 0 1rem 0;
+    align-self: auto;
+    width: 40%;
+}
+
+.gamename {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+    color: white;
+    align-self: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    transition: 0.5s ease;
+    text-shadow: 5px 2px 0px rgb(0, 0, 0);
+}
+
+#align {
+    position: relative;
+    left: 50px;
+}
+
+#test {
+    position: relative;
+    top: 300px;
+}
+
+.ratings {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+    color: yellow;
+    align-self: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+    transition: 0.5s ease;
+    text-shadow: 3px 2px 0px rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
