@@ -16,7 +16,7 @@ fetch("https://rawg-video-games-database.p.rapidapi.com/games", {
             return `
             <div id="align">
               <div id="test">
-                <p1 class="gamename">${game.name}</p1><p1 class="ratings">Rating: ${game.rating}</p1><br><br>
+                <p1 class="gamename">${game.name}</p1><p1 class="ratings">Rating: ${game.rating}</p1><br>
                 <img class="pictures" alt="${game.name}" src="${game.background_image}">
               </div>
             </div>
